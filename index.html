@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="dice.png">
+</head>
+<body>
+  <section class="game">
+    <div class="playerOne active">
+      <div class="pl1-top">
+          <h2>PLAYER 1</h2>
+          <span class="playerOneMainScore">0</span>
+      </div>
+      <div class="pl1-bottom">
+        <div>
+          <span class="current1">Current</span> <br>
+          <span class="playerOneCurrentScore">0</span>
+        </div>
+      </div>
+    </div>
+    <div class="playerTwo deactive">
+      <div class="pl2-top">
+        <h2>PLAYER 2</h2>
+        <span class="playerTwoMainScore">0</span>
+      </div>
+      <div class="pl2-bottom">
+        <div>
+          <span class="current2">Current</span> <br>
+          <span class="playerTwoCurrentScore">0</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="buttons">
+    <span class="rollDice" onclick="playGame();">🎲 Roll Dice</span>
+    <img class="Dice" src="">
+    <span class="holdBtn">💾 Hold</span>
+    <span class="newGame" onclick="window.location.reload();">🔁 New Game</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
